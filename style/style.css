@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.exercise_1 {
+    border: 3px solid rgb(34, 12, 235);
+    padding: 4px;
+    margin-bottom: 50px;
+
+}
+
+.ex_1 {
+    margin: 0 auto;
+    font-size: 18px;
+    color: rgb(36, 177, 177);
+    margin-bottom: 10px;
+}
+
+.main-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    display: block;
+    margin: 0 auto;
+    resize: none;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+
+div {
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.exercise_2 {
+    border: 3px solid rgb(255, 123, 0);
+    padding: 4px;
+    margin-bottom: 50px;
+}
+
+.ex_2 {
+    margin: 0 auto;
+    font-size: 18px;
+    color: rgb(36, 177, 177);
+    margin-bottom: 10px;
+}
+
+td {
+    padding-right: 50px;
+}
+
+td::after {
+    content: '';
+    border-bottom: 1px solid red;
+}
+
+.exercise_3 {
+    border: 3px solid rgb(30, 255, 0);
+    padding: 4px;
+    margin-bottom: 50px;
+}
+
+.ex_3 {
+    margin: 0 auto;
+    font-size: 18px;
+    color: rgb(36, 177, 177);
+    margin-bottom: 10px;
+}
